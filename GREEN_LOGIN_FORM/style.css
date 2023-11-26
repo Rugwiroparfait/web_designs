@@ -1,0 +1,31 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #007bff;
+}
+
+section
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	gap:2px;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+section::before
+{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
